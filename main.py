@@ -6,8 +6,11 @@ import process
 import tui
 
 
-DATA_FILE = Path(__file__).with_name("disneyland_reviews.csv")
-
+DATA_FILE = (
+    Path(__file__).parent
+    / "data"
+    / "disneyland_reviews.csv"
+)
 
 def request_park(reviews):
     """Ask for a park and validate it against the dataset."""
