@@ -1,5 +1,1 @@
-"""
-This module is responsible for visualising the data using Matplotlib.
-Any visualisations should be generated via functions in this module.
-"""
-
+"""Visualisation functions will be added in a later section."""
